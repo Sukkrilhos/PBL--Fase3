@@ -8,7 +8,7 @@ Jogo de aventura em texto, em Java, organizado em **MVC**, com duas interfaces s
 ```
 src/
 ├── Main.java                      Console: monta as peças (composição) e inicia o Controlador
-├── MainGui.java                   Janela JavaFX: ponto de entrada (precisa do JavaFX, veja abaixo)
+├── Jogar.java                   Janela JavaFX: ponto de entrada (precisa do JavaFX, veja abaixo)
 ├── model/                         REGRAS e DADOS — não conhece View nem Controller
 │   ├── Personagem.java            Estado do jogador (atributos 0-100, dinheiro, inventário)
 │   ├── Progresso.java             Um save: personagem + temporada + capítulo + rota + slot + data
