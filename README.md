@@ -1,7 +1,7 @@
-# Ponto de Ebulição (PBL Fase 2)
+# Ponto Zero (PBL Fase 3)
 
 Jogo de aventura em texto, em Java, organizado em **MVC**, com duas interfaces sobre o mesmo jogo:
-**console** (`Main`) e **janela gráfica JavaFX** (`MainGui`). Salva o progresso em JSON (Gson) e toca efeitos sonoros.
+**console** (`Main`) e **janela gráfica JavaFX** (`Jogar`). Salva o progresso em JSON (Gson) e toca efeitos sonoros.
 
 ## Estrutura
 
