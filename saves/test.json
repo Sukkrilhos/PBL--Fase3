@@ -1,0 +1,16 @@
+{
+  "personagem": {
+    "nome": "Valter",
+    "antecedente": "Químico Precavido",
+    "dinheiro": 12500,
+    "saude": 45,
+    "moralEtica": 25,
+    "relacaoFamiliar": 35,
+    "inventario": [
+      "Máscara de Gás"
+    ]
+  },
+  "temporadaAtual": 4,
+  "nomeSave": "test",
+  "dataHora": "19/10/2026 13:39:19"
+}

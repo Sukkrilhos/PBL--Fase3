@@ -1,0 +1,18 @@
+{
+  "personagem": {
+    "nome": "Valter",
+    "antecedente": "Químico Precavido",
+    "dinheiro": 16000,
+    "saude": 35,
+    "moralEtica": 5,
+    "relacaoFamiliar": 60,
+    "inventario": [
+      "Máscara de Gás"
+    ]
+  },
+  "temporadaAtual": 4,
+  "nomeSave": "teste",
+  "dataHora": "18/11/2026 05:11:23",
+  "rotaFinal": 0,
+  "capitulo": 0
+}
