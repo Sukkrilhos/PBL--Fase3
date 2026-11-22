@@ -76,7 +76,7 @@ O código da janela depende do JavaFX, então o build só do console deixa essas
 # Linux/macOS
 mkdir -p out
 javac -encoding UTF-8 -cp lib/gson-2.14.0.jar -d out \
-  $(find src -name "*.java" ! -path "src/view/fx/jfx/*" ! -name "MainGui.java")
+  $(find src -name "*.java" ! -path "src/view/fx/jfx/*" ! -name "Jogar.java")
 java -cp out:lib/gson-2.14.0.jar Main
 ```
 
@@ -106,7 +106,7 @@ SDK=~/javafx-sdk-26/lib   # ajuste o caminho
 mkdir -p out
 javac -encoding UTF-8 --module-path $SDK --add-modules javafx.controls \
   -cp lib/gson-2.14.0.jar -d out $(find src -name "*.java")
-java --module-path $SDK --add-modules javafx.controls -cp out:lib/gson-2.14.0.jar MainGui
+java --module-path $SDK --add-modules javafx.controls -cp out:lib/gson-2.14.0.jar Jogar
 ```
 
 Controles: mouse, ou as teclas **1, 2, 3...** para escolher; **Enter/Espaço** para continuar; **F11** alterna tela cheia.
